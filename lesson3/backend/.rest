@@ -1,0 +1,42 @@
+//Localhost
+
+### Get all contacts
+GET http://localhost:8080/contacts HTTP/1.1
+
+### Create new contact
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Jhon", "lastName":"Jhonson", "email":"j.john@test.com", "favoriteColor":"Blue", "birthday":"06/19/1980"
+}
+
+### Show contact
+GET http://localhost:8080/contacts/644b0b32aa45fedc859fa511 HTTP/1.1
+
+### Update contact
+PUT http://localhost:8080/contacts/644b0b32aa45fedc859fa511 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Jhon", "lastName":"Jhonson2", "email":"j.john@test.com", "favoriteColor":"Blue", "birthday":"06/19/1980"
+}
+
+### Delete contact
+DELETE  http://localhost:8080/contacts/644b0b32aa45fedc859fa511 HTTP/1.1
+
+
+
+//Render host
+
+###
+GET https://enh-byui-cse341-lesson2.onrender.com/contacts HTTP/1.1
+
+###
+GET https://enh-byui-cse341-lesson2.onrender.com/contacts/6444a3a7791e73590fb99a3b HTTP/1.1
+
+###
+GET https://enh-byui-cse341-lesson2.onrender.com/contacts/6444a3bd791e73590fb9b5c2 HTTP/1.1
+
+###
+GET https://enh-byui-cse341-lesson2.onrender.com/contacts/6444a3cc791e73590fb9c840 HTTP/1.1
