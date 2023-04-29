@@ -30,10 +30,10 @@ DELETE  http://localhost:8080/contacts/644cb1a2504ae2d48cd4e25c HTTP/1.1
 //Render host
 
 ### Get all contacts
-GET https://enh-byui-cse341-lesson3.onrender.com/contacts HTTP/1.1
+GET https://enh-byui-cse341-lesson4.onrender.com/contacts HTTP/1.1
 
 ### Create new contact
-POST https://enh-byui-cse341-lesson3.onrender.com/contacts HTTP/1.1
+POST https://enh-byui-cse341-lesson4.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
