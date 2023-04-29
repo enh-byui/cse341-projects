@@ -30,13 +30,13 @@ DELETE  http://localhost:8080/contacts/644cab5f52351ef361c08b7d HTTP/1.1
 //Render host
 
 ###
-GET https://enh-byui-cse341-lesson2.onrender.com/contacts HTTP/1.1
+GET https://enh-byui-cse341-lesson3.onrender.com/contacts HTTP/1.1
 
 ### Get all contacts
-GET http://localhost:8080/contacts HTTP/1.1
+GET https://enh-byui-cse341-lesson3.onrender.com/contacts HTTP/1.1
 
 ### Create new contact
-POST http://localhost:8080/contacts HTTP/1.1
+POST https://enh-byui-cse341-lesson3.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
@@ -44,10 +44,10 @@ content-type: application/json
 }
 
 ### Show contact
-GET http://localhost:8080/contacts/644cab5f52351ef361c08b7d HTTP/1.1
+GET https://enh-byui-cse341-lesson3.onrender.com/contacts/644cab5f52351ef361c08b7d HTTP/1.1
 
 ### Update contact
-PUT http://localhost:8080/contacts/644cab5f52351ef361c08b7d HTTP/1.1
+PUT https://enh-byui-cse341-lesson3.onrender.com/contacts/644cab5f52351ef361c08b7d HTTP/1.1
 content-type: application/json
 
 {
@@ -55,4 +55,4 @@ content-type: application/json
 }
 
 ### Delete contact
-DELETE  http://localhost:8080/contacts/644cab5f52351ef361c08b7d HTTP/1.1
+DELETE  https://enh-byui-cse341-lesson3.onrender.com/contacts/644cab5f52351ef361c08b7d HTTP/1.1
