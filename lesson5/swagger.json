@@ -113,19 +113,28 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "name": {
                   "example": "any"
                 },
-                "lastName": {
+                "description": {
                   "example": "any"
                 },
-                "email": {
+                "price": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "category": {
                   "example": "any"
                 },
-                "birthday": {
+                "manufacturer": {
+                  "example": "any"
+                },
+                "inStock": {
+                  "example": "any"
+                },
+                "brand": {
+                  "example": "any"
+                },
+                "color": {
                   "example": "any"
                 }
               }
@@ -161,7 +170,7 @@
         }
       }
     },
-    "/contacts/": {
+    "/orders/": {
       "get": {
         "description": "",
         "produces": [
@@ -183,19 +192,25 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "customerId": {
                   "example": "any"
                 },
-                "lastName": {
+                "orderDate": {
                   "example": "any"
                 },
-                "email": {
+                "totalPrice": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "paymentMethod": {
                   "example": "any"
                 },
-                "birthday": {
+                "paymentStatus": {
+                  "example": "any"
+                },
+                "shippingAddress": {
+                  "example": "any"
+                },
+                "shippingStatus": {
                   "example": "any"
                 }
               }
@@ -212,7 +227,7 @@
         }
       }
     },
-    "/contacts/{id}": {
+    "/orders/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -247,19 +262,25 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "customerId": {
                   "example": "any"
                 },
-                "lastName": {
+                "orderDate": {
                   "example": "any"
                 },
-                "email": {
+                "totalPrice": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "paymentMethod": {
                   "example": "any"
                 },
-                "birthday": {
+                "paymentStatus": {
+                  "example": "any"
+                },
+                "shippingAddress": {
+                  "example": "any"
+                },
+                "shippingStatus": {
                   "example": "any"
                 }
               }
