@@ -5,12 +5,19 @@
     "description": "REST API Shopping Cart",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "enh-byui-cse341-lesson6.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
     "/products/": {
       "get": {
         "description": "",
@@ -36,28 +43,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "name": {
+                "firstName": {
                   "example": "any"
                 },
-                "description": {
+                "lastName": {
                   "example": "any"
                 },
-                "price": {
+                "email": {
                   "example": "any"
                 },
-                "category": {
+                "favoriteColor": {
                   "example": "any"
                 },
-                "manufacturer": {
-                  "example": "any"
-                },
-                "inStock": {
-                  "example": "any"
-                },
-                "brand": {
-                  "example": "any"
-                },
-                "color": {
+                "birthday": {
                   "example": "any"
                 }
               }
@@ -115,28 +113,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "name": {
+                "firstName": {
                   "example": "any"
                 },
-                "description": {
+                "lastName": {
                   "example": "any"
                 },
-                "price": {
+                "email": {
                   "example": "any"
                 },
-                "category": {
+                "favoriteColor": {
                   "example": "any"
                 },
-                "manufacturer": {
-                  "example": "any"
-                },
-                "inStock": {
-                  "example": "any"
-                },
-                "brand": {
-                  "example": "any"
-                },
-                "color": {
+                "birthday": {
                   "example": "any"
                 }
               }
@@ -169,8 +158,8 @@
           }
         ],
         "responses": {
-          "200": {
-            "description": "OK"
+          "204": {
+            "description": "No Content"
           },
           "400": {
             "description": "Bad Request"
