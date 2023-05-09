@@ -5,7 +5,7 @@ const doc = {
     title: 'My Shopping Cart',
     description: 'REST API Shopping Cart',
   },
-  host: 'https://enh-byui-cse341-lesson6.onrender.com',
+  host: 'enh-byui-cse341-lesson6.onrender.com',
   schemes: ['https'],
 };
 

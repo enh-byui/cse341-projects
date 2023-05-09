@@ -5,7 +5,7 @@
     "description": "REST API Shopping Cart",
     "version": "1.0.0"
   },
-  "host": "https://enh-byui-cse341-lesson6.onrender.com",
+  "host": "enh-byui-cse341-lesson6.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
