@@ -12,8 +12,14 @@ router.get('/', ordersController.getAll
 router.get('/:id', ordersController.getSingle
 // #swagger.tags = ['Orders']
 );
-router.post('/', validation.saveOrder, ordersController.addOrder);
-router.put('/:id', validation.saveOrder, ordersController.updateOrder);
-router.delete('/:id', ordersController.destroyOrder);
+router.post('/', validation.saveOrder, ordersController.addOrder
+// #swagger.tags = ['Orders']
+);
+router.put('/:id', validation.saveOrder, ordersController.updateOrder
+// #swagger.tags = ['Orders']
+);
+router.delete('/:id', ordersController.destroyOrder
+// #swagger.tags = ['Orders']
+);
 
 module.exports = router;
