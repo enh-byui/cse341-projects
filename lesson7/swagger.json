@@ -16,6 +16,7 @@
         "tags": [
           "Products"
         ],
+        "summary": "Lists all products",
         "description": "",
         "produces": [
           "application/json"
@@ -34,6 +35,7 @@
         "tags": [
           "Products"
         ],
+        "summary": "Creates a new product",
         "description": "",
         "parameters": [
           {
@@ -88,6 +90,7 @@
         "tags": [
           "Products"
         ],
+        "summary": "Shows one product",
         "description": "",
         "produces": [
           "application/json"
@@ -116,6 +119,7 @@
         "tags": [
           "Products"
         ],
+        "summary": "Updates one product",
         "description": "",
         "parameters": [
           {
@@ -174,6 +178,7 @@
         "tags": [
           "Products"
         ],
+        "summary": "Deletes one product",
         "description": "",
         "parameters": [
           {
