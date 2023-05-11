@@ -198,6 +198,9 @@
     },
     "/orders/": {
       "get": {
+        "tags": [
+          "Orders"
+        ],
         "description": "",
         "produces": [
           "application/json"
@@ -261,6 +264,9 @@
     },
     "/orders/{id}": {
       "get": {
+        "tags": [
+          "Orders"
+        ],
         "description": "",
         "produces": [
           "application/json"
