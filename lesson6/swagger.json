@@ -5,10 +5,10 @@
     "description": "REST API Shopping Cart",
     "version": "1.0.0"
   },
-  "host": "enh-byui-cse341-lesson6.onrender.com",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
     "/api-docs": {
@@ -43,19 +43,28 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "name": {
                   "example": "any"
                 },
-                "lastName": {
+                "description": {
                   "example": "any"
                 },
-                "email": {
+                "price": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "category": {
                   "example": "any"
                 },
-                "birthday": {
+                "manufacturer": {
+                  "example": "any"
+                },
+                "inStock": {
+                  "example": "any"
+                },
+                "brand": {
+                  "example": "any"
+                },
+                "color": {
                   "example": "any"
                 }
               }
@@ -113,19 +122,28 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "name": {
                   "example": "any"
                 },
-                "lastName": {
+                "description": {
                   "example": "any"
                 },
-                "email": {
+                "price": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "category": {
                   "example": "any"
                 },
-                "birthday": {
+                "manufacturer": {
+                  "example": "any"
+                },
+                "inStock": {
+                  "example": "any"
+                },
+                "brand": {
+                  "example": "any"
+                },
+                "color": {
                   "example": "any"
                 }
               }
