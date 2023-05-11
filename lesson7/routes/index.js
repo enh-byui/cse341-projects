@@ -4,6 +4,7 @@ const { requiresAuth } = require('express-openid-connect');
 
 
 router.get("/", (req, res) => {
+  // #swagger.ignore = true
     res.send(req.oidc.isAuthenticated() ? "Logged in" : "Logged out");
   });
 
