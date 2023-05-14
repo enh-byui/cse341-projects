@@ -91,12 +91,15 @@ const updateProduct = async (req, res) => {
 };
 
 const deleteProduct = async (req, res) => {
-  const userId = new ObjectId(req.params.id);
+  if (!ObjectId.isValid(req.params.id)) {
+    res.status(400).json("Must be a valid contact id");
+  }
+  const productId = new ObjectId(req.params.id);
   const response = await mongodb
     .getDb()
     .db()
     .collection("products")
-    .deleteOne({ _id: userId }, true);
+    .deleteOne({ _id: productId }, true);
   console.log(response);
   if (response.deletedCount > 0) {
     res.status(200).send();
